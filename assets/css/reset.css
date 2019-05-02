@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+	border:0;
+	border-radius: 0;
+}
+
+a{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+}
+
+ul, ol{
+	list-style-type: none;
+}
+
+ul li,
+ol li{
+	position: relative;
+	float: left;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+button{
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.clear,
+.clearfix{
+	clear: both;
+}
+
+.full_w{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.full_h{
+	height: 100%;
+}
+
+.pos_rel_fl{
+	position: relative;
+	float: left;
+}
+.center{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
